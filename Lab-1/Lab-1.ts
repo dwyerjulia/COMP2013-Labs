@@ -571,6 +571,13 @@ function realtorFees(listing: Listing): number {
  */
 //WRITE YOUR CODE BELOW
 
+const listingAscendingly: Listing[] = [...listings].sort((a, b) => {
+  const yearA: number = parseInt(a.propertySummary.builtIn) || 0;
+  const yearB: number = parseInt(b.propertySummary.builtIn) || 0;
+
+  return yearA - yearB;
+});
+
 /**
  * Task-6:
  * Filter all the listings by houseType
