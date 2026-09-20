@@ -556,6 +556,14 @@ const lisitng0Updated: Listing = {
  */
 //WRITE YOUR CODE BELOW
 
+function realtorFees(listing: Listing): number {
+  const price: number = parseInt(listing.price.replace(/[$,]/g, ""));
+
+  return price <= 450000
+  ? price * 0.025
+  : price * 0.02;
+}
+
 /**
  * Task-5:
  * Sort the listing array ascendingly in a new variable called listingAscendingly
