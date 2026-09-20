@@ -530,6 +530,12 @@ const listing0: Listing = listings[0];
  */
 //WRITE YOUR CODE BELOW
 
+const lisitng0Updated ={
+  ...listing0,
+  isSold: false,
+  currentOwner: "Jane Doe",
+};
+
 /**
  * NOTE: THIS TASK IS TRICKY!
  * Task-4:
