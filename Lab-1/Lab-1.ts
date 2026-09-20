@@ -586,3 +586,8 @@ const listingAscendingly: Listing[] = [...listings].sort((a, b) => {
  * This array should result in two listings only
  */
 //WRITE YOUR CODE BELOW
+
+const townhouseListings: Listing[] = listings.filter(
+  (listing: Listing): boolean =>
+    listing.propertySummary.buildingType === "Townhouse"
+);
