@@ -515,6 +515,8 @@ const listings: Listing[] = [
  */
 //WRITE YOUR CODE BELOW
 
+const listing0: Listing = listings[0];
+
 /**
  * Task-3:
  * Create an object named listing0Updated of type Listing
