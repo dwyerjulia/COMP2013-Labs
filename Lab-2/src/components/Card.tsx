@@ -10,7 +10,7 @@ function Card(props: CardProps) {
     return (
         <div className="card">
 
-            <img src={props.pic} alt={props.location}/>
+            <img className="card-image" src={props.pic} alt={props.location}/>
 
             <div className="card-info">
 

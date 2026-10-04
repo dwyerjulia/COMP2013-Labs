@@ -58,7 +58,7 @@ header h1 {
 
 .card-image {
   width: 100%;
-  height: 188px;
+  height: 320px;
   object-fit: cover;
   display: block;
 }
