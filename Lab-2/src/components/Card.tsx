@@ -18,7 +18,8 @@ function Card(props: CardProps) {
 
                 <p>{props.location}</p>
 
-                <p>★ {props.rating}</p>
+                <p className={props.rating > 4.0 ? "good-rating" : "bad-rating"}>
+                    ★ {props.rating}</p>
 
                 <p>${props.price}</p>
 
