@@ -5,10 +5,18 @@ function App() {
   
   return (
 
-    <>
-      <h1>Resorts</h1>
+    <div className="app">
+
+      <header>
+
+        <h1>Resorts Lite</h1>
+        <span className="menu">...</span>
+
+      </header>
+
       <Container/>
-    </>
+      
+    </div>
 
   );
 
