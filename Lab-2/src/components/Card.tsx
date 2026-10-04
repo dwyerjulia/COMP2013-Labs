@@ -16,12 +16,12 @@ function Card(props: CardProps) {
 
                 <h2>{props.country}</h2>
 
-                <p>{props.location}</p>
+                <p className="location">{props.location}</p>
 
                 <p className={props.rating > 4.0 ? "good-rating" : "bad-rating"}>
-                    ★ {props.rating}</p>
+                    {props.rating}★</p>
 
-                <p>${props.price}</p>
+                <p className="price">${props.price}/night</p>
 
             </div>
 
